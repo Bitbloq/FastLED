@@ -20,6 +20,9 @@ FASTLED_NAMESPACE_BEGIN
 #define UCPHA1 1
 #endif
 
+// Include a header file for atmega328pb compatibility (Zum Core 2.0)
+#include "avr/atmega328pb_redirects.h"
+
 template <uint8_t _DATA_PIN, uint8_t _CLOCK_PIN, uint32_t _SPI_CLOCK_DIVIDER>
 class AVRUSART1SPIOutput {
 	Selectable *m_pSelect;
