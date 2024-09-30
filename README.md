@@ -286,3 +286,7 @@ Check out the official site http://fastled.io for links to documentation, issues
 
 
 *TODO* - get candy
+
+# About this fork
+
+This fork includes a header file in `src/platforms/avr/fastspi_avr.h` for enabling compatibility with the atmega328pb architecture and therefore with the BQ Educación Zum Core 2.0 board.
